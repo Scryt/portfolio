@@ -1,0 +1,53 @@
+body {
+/*TODO media query */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    margin: 0;
+    padding: 0;
+    border: 1px solid black;
+}
+
+.menu-container {
+    width: 100%;
+}
+
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.nav li {
+    margin: 5px;
+    border: 1px solid black;
+}
+
+.nav li a {
+    text-decoration: none;
+    color: black;
+}
+
+#menu {
+
+}
+
+#about {
+
+}
+
+#contact {
+
+}
