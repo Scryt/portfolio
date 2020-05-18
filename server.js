@@ -1,24 +1,25 @@
-// server.js
 // load the things we need
-const express = require('express');
-const app = express();
-
-app.use(express.static(__dirname + '/public'));
+let express = require('express');
+let app = express();
 
 // set the view engine to ejs
 app.set('view engine', 'ejs');
 
-// use res.render to load up an ejs view file
+app.use('/styles', express.static('styles'));
+app.use('/js', express.static('js'));
+app.use('/content', express.static('content'));
 
-// index page 
+// index page
 app.get('/', function(req, res) {
-    res.render('pages/index.ejs');
+    res.render('pages/index');
 });
 
-// about page 
-// app.get('/about', function(req, res) {
-//     res.render('pages/about.html');
-// });
+// about page
+app.get('/about', function(req, res) {
+    res.render('pages/about');
+});
+
+
 
 app.listen(8080);
 console.log('8080 is the magic port');

@@ -1,87 +1,46 @@
-<!-- views/pages/index.ejs -->
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Scryt - Portfolio</title>
-
-    <%- include ('partials/head.ejs') %>
+    <title>Index</title>
+    <link rel='stylesheet' type='text/css' href='/styles/style.css'>
+    <% include ../partials/head.ejs %>
 </head>
 <body>
-    <nav class="main-container" id="menu">
-        <%- include ('partials/menu.ejs') %>
-    </nav>
-    <div id="new_value"></div>
-    <div class="main-container" id="about">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aliquid amet architecto, atque distinctio earum excepturi fuga id illo ipsum iure laboriosam magni, neque nesciunt nobis nostrum placeat quibusdam repellendus.
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aliquid amet architecto, atque distinctio earum excepturi fuga id illo ipsum iure laboriosam magni, neque nesciunt nobis nostrum placeat quibusdam repellendus.
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aliquid amet architecto, atque distinctio earum excepturi fuga id illo ipsum iure laboriosam magni, neque nesciunt nobis nostrum placeat quibusdam repellendus.
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aliquid amet architecto, atque distinctio earum excepturi fuga id illo ipsum iure laboriosam magni, neque nesciunt nobis nostrum placeat quibusdam repellendus.
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aliquid amet architecto, atque distinctio earum excepturi fuga id illo ipsum iure laboriosam magni, neque nesciunt nobis nostrum placeat quibusdam repellendus.
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aliquid amet architecto, atque distinctio earum excepturi fuga id illo ipsum iure laboriosam magni, neque nesciunt nobis nostrum placeat quibusdam repellendus.
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aliquid amet architecto, atque distinctio earum excepturi fuga id illo ipsum iure laboriosam magni, neque nesciunt nobis nostrum placeat quibusdam repellendus.
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aliquid amet architecto, atque distinctio earum excepturi fuga id illo ipsum iure laboriosam magni, neque nesciunt nobis nostrum placeat quibusdam repellendus.
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aliquid amet architecto, atque distinctio earum excepturi fuga id illo ipsum iure laboriosam magni, neque nesciunt nobis nostrum placeat quibusdam repellendus.
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aliquid amet architecto, atque distinctio earum excepturi fuga id illo ipsum iure laboriosam magni, neque nesciunt nobis nostrum placeat quibusdam repellendus.
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aliquid amet architecto, atque distinctio earum excepturi fuga id illo ipsum iure laboriosam magni, neque nesciunt nobis nostrum placeat quibusdam repellendus.
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aliquid amet architecto, atque distinctio earum excepturi fuga id illo ipsum iure laboriosam magni, neque nesciunt nobis nostrum placeat quibusdam repellendus.
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aliquid amet architecto, atque distinctio earum excepturi fuga id illo ipsum iure laboriosam magni, neque nesciunt nobis nostrum placeat quibusdam repellendus.
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aliquid amet architecto, atque distinctio earum excepturi fuga id illo ipsum iure laboriosam magni, neque nesciunt nobis nostrum placeat quibusdam repellendus.
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aliquid amet architecto, atque distinctio earum excepturi fuga id illo ipsum iure laboriosam magni, neque nesciunt nobis nostrum placeat quibusdam repellendus.
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aliquid amet architecto, atque distinctio earum excepturi fuga id illo ipsum iure laboriosam magni, neque nesciunt nobis nostrum placeat quibusdam repellendus.
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aliquid amet architecto, atque distinctio earum excepturi fuga id illo ipsum iure laboriosam magni, neque nesciunt nobis nostrum placeat quibusdam repellendus.
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aliquid amet architecto, atque distinctio earum excepturi fuga id illo ipsum iure laboriosam magni, neque nesciunt nobis nostrum placeat quibusdam repellendus.
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aliquid amet architecto, atque distinctio earum excepturi fuga id illo ipsum iure laboriosam magni, neque nesciunt nobis nostrum placeat quibusdam repellendus.
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aliquid amet architecto, atque distinctio earum excepturi fuga id illo ipsum iure laboriosam magni, neque nesciunt nobis nostrum placeat quibusdam repellendus.
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aliquid amet architecto, atque distinctio earum excepturi fuga id illo ipsum iure laboriosam magni, neque nesciunt nobis nostrum placeat quibusdam repellendus.
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aliquid amet architecto, atque distinctio earum excepturi fuga id illo ipsum iure laboriosam magni, neque nesciunt nobis nostrum placeat quibusdam repellendus.
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aliquid amet architecto, atque distinctio earum excepturi fuga id illo ipsum iure laboriosam magni, neque nesciunt nobis nostrum placeat quibusdam repellendus.
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aliquid amet architecto, atque distinctio earum excepturi fuga id illo ipsum iure laboriosam magni, neque nesciunt nobis nostrum placeat quibusdam repellendus.
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aliquid amet architecto, atque distinctio earum excepturi fuga id illo ipsum iure laboriosam magni, neque nesciunt nobis nostrum placeat quibusdam repellendus.
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aliquid amet architecto, atque distinctio earum excepturi fuga id illo ipsum iure laboriosam magni, neque nesciunt nobis nostrum placeat quibusdam repellendus.
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aliquid amet architecto, atque distinctio earum excepturi fuga id illo ipsum iure laboriosam magni, neque nesciunt nobis nostrum placeat quibusdam repellendus.
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aliquid amet architecto, atque distinctio earum excepturi fuga id illo ipsum iure laboriosam magni, neque nesciunt nobis nostrum placeat quibusdam repellendus.
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aliquid amet architecto, atque distinctio earum excepturi fuga id illo ipsum iure laboriosam magni, neque nesciunt nobis nostrum placeat quibusdam repellendus.
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aliquid amet architecto, atque distinctio earum excepturi fuga id illo ipsum iure laboriosam magni, neque nesciunt nobis nostrum placeat quibusdam repellendus.
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aliquid amet architecto, atque distinctio earum excepturi fuga id illo ipsum iure laboriosam magni, neque nesciunt nobis nostrum placeat quibusdam repellendus.
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aliquid amet architecto, atque distinctio earum excepturi fuga id illo ipsum iure laboriosam magni, neque nesciunt nobis nostrum placeat quibusdam repellendus.
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aliquid amet architecto, atque distinctio earum excepturi fuga id illo ipsum iure laboriosam magni, neque nesciunt nobis nostrum placeat quibusdam repellendus.
+<!--    <menu>-->
+<!--        <% include ../partials/menu.ejs%>-->
+<!--    </menu>-->
 
-    </div>
-    <div class="main-container" id="contact">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aliquid amet architecto, atque distinctio earum excepturi fuga id illo ipsum iure laboriosam magni, neque nesciunt nobis nostrum placeat quibusdam repellendus.
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aliquid amet architecto, atque distinctio earum excepturi fuga id illo ipsum iure laboriosam magni, neque nesciunt nobis nostrum placeat quibusdam repellendus.
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aliquid amet architecto, atque distinctio earum excepturi fuga id illo ipsum iure laboriosam magni, neque nesciunt nobis nostrum placeat quibusdam repellendus.
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aliquid amet architecto, atque distinctio earum excepturi fuga id illo ipsum iure laboriosam magni, neque nesciunt nobis nostrum placeat quibusdam repellendus.
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aliquid amet architecto, atque distinctio earum excepturi fuga id illo ipsum iure laboriosam magni, neque nesciunt nobis nostrum placeat quibusdam repellendus.
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aliquid amet architecto, atque distinctio earum excepturi fuga id illo ipsum iure laboriosam magni, neque nesciunt nobis nostrum placeat quibusdam repellendus.
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aliquid amet architecto, atque distinctio earum excepturi fuga id illo ipsum iure laboriosam magni, neque nesciunt nobis nostrum placeat quibusdam repellendus.
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aliquid amet architecto, atque distinctio earum excepturi fuga id illo ipsum iure laboriosam magni, neque nesciunt nobis nostrum placeat quibusdam repellendus.
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aliquid amet architecto, atque distinctio earum excepturi fuga id illo ipsum iure laboriosam magni, neque nesciunt nobis nostrum placeat quibusdam repellendus.
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aliquid amet architecto, atque distinctio earum excepturi fuga id illo ipsum iure laboriosam magni, neque nesciunt nobis nostrum placeat quibusdam repellendus.
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aliquid amet architecto, atque distinctio earum excepturi fuga id illo ipsum iure laboriosam magni, neque nesciunt nobis nostrum placeat quibusdam repellendus.
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aliquid amet architecto, atque distinctio earum excepturi fuga id illo ipsum iure laboriosam magni, neque nesciunt nobis nostrum placeat quibusdam repellendus.
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aliquid amet architecto, atque distinctio earum excepturi fuga id illo ipsum iure laboriosam magni, neque nesciunt nobis nostrum placeat quibusdam repellendus.
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aliquid amet architecto, atque distinctio earum excepturi fuga id illo ipsum iure laboriosam magni, neque nesciunt nobis nostrum placeat quibusdam repellendus.
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aliquid amet architecto, atque distinctio earum excepturi fuga id illo ipsum iure laboriosam magni, neque nesciunt nobis nostrum placeat quibusdam repellendus.
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aliquid amet architecto, atque distinctio earum excepturi fuga id illo ipsum iure laboriosam magni, neque nesciunt nobis nostrum placeat quibusdam repellendus.
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aliquid amet architecto, atque distinctio earum excepturi fuga id illo ipsum iure laboriosam magni, neque nesciunt nobis nostrum placeat quibusdam repellendus.
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aliquid amet architecto, atque distinctio earum excepturi fuga id illo ipsum iure laboriosam magni, neque nesciunt nobis nostrum placeat quibusdam repellendus.
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aliquid amet architecto, atque distinctio earum excepturi fuga id illo ipsum iure laboriosam magni, neque nesciunt nobis nostrum placeat quibusdam repellendus.
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aliquid amet architecto, atque distinctio earum excepturi fuga id illo ipsum iure laboriosam magni, neque nesciunt nobis nostrum placeat quibusdam repellendus.
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aliquid amet architecto, atque distinctio earum excepturi fuga id illo ipsum iure laboriosam magni, neque nesciunt nobis nostrum placeat quibusdam repellendus.
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aliquid amet architecto, atque distinctio earum excepturi fuga id illo ipsum iure laboriosam magni, neque nesciunt nobis nostrum placeat quibusdam repellendus.
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aliquid amet architecto, atque distinctio earum excepturi fuga id illo ipsum iure laboriosam magni, neque nesciunt nobis nostrum placeat quibusdam repellendus.
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aliquid amet architecto, atque distinctio earum excepturi fuga id illo ipsum iure laboriosam magni, neque nesciunt nobis nostrum placeat quibusdam repellendus.
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aliquid amet architecto, atque distinctio earum excepturi fuga id illo ipsum iure laboriosam magni, neque nesciunt nobis nostrum placeat quibusdam repellendus.
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aliquid amet architecto, atque distinctio earum excepturi fuga id illo ipsum iure laboriosam magni, neque nesciunt nobis nostrum placeat quibusdam repellendus.
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aliquid amet architecto, atque distinctio earum excepturi fuga id illo ipsum iure laboriosam magni, neque nesciunt nobis nostrum placeat quibusdam repellendus.
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aliquid amet architecto, atque distinctio earum excepturi fuga id illo ipsum iure laboriosam magni, neque nesciunt nobis nostrum placeat quibusdam repellendus.
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aliquid amet architecto, atque distinctio earum excepturi fuga id illo ipsum iure laboriosam magni, neque nesciunt nobis nostrum placeat quibusdam repellendus.
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aliquid amet architecto, atque distinctio earum excepturi fuga id illo ipsum iure laboriosam magni, neque nesciunt nobis nostrum placeat quibusdam repellendus.
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aliquid amet architecto, atque distinctio earum excepturi fuga id illo ipsum iure laboriosam magni, neque nesciunt nobis nostrum placeat quibusdam repellendus.
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aliquid amet architecto, atque distinctio earum excepturi fuga id illo ipsum iure laboriosam magni, neque nesciunt nobis nostrum placeat quibusdam repellendus.
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aliquid amet architecto, atque distinctio earum excepturi fuga id illo ipsum iure laboriosam magni, neque nesciunt nobis nostrum placeat quibusdam repellendus.
-    </div>
+    <main>
+        <div id="main-display" class="container">
+            <div class="container">
+                <div>
+                    <h1>HELLO,</h1>
+                    <p id="about-short"> my name is Przemysław (Peter) and I am Front-end Developer </p>
+                </div>
+                <img id="my-photo" src="/content/photos/me.jpg">
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="card">
+                <i class="fas fa-info-circle prime-icon"></i>
+                <div>
+                    Informations about me, what I know and what I'm interested in.
+                </div>
+            </div>
+            <div class="card">
+                <i class="far fa-lightbulb prime-icon"></i>
+                <div>
+                    Projects I'm currently working on.
+                </div>
+            </div>
+            <div class="card">
+                <i class="far fa-address-card prime-icon"></i>
+                <div>
+                    Contact form.
+                </div>
+            </div>
+        </div>
+    </main>
 </body>
 </html>
