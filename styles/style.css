@@ -7,7 +7,7 @@ body {
     padding: 0;
     margin: 0;
     width: 100%;
-    background-color: #0B0C10;
+    background-color: #013b62;
     color: #878787;
     display: flex;
     justify-content: center;
@@ -15,7 +15,7 @@ body {
 }
 
 h1 {
-    color: #3b82a5;
+    color: #bab22c;
     text-align: center;
     margin: 0;
     font-size: 100px;
@@ -41,8 +41,11 @@ main {
 
 #main-display {
     width: 100%;
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), #0B0C10 ), url("/content/photos/background.jpg");
-    height: 450px;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), #013b62 ), url("/content/img/background.jpg");
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+    height: 50vh;
 }
 
 #my-photo {
@@ -61,7 +64,7 @@ main {
 }
 
 .prime-icon {
-    color: #3b82a5;
+    color: #bab22c;
     font-size: 50px;
     text-align: center;
 }
