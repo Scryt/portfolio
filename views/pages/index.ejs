@@ -5,42 +5,61 @@
     <link rel='stylesheet' type='text/css' href='/styles/style.css'>
     <% include ../partials/head.ejs %>
 </head>
-<body>
-<!--    <menu>-->
-<!--        <% include ../partials/menu.ejs%>-->
-<!--    </menu>-->
-
+<body id="home">
+    <nav>
+        <% include ../partials/menu.ejs %>
+    </nav>
     <main>
         <div id="main-display" class="container">
             <div class="container">
                 <div>
                     <h1>HELLO,</h1>
-                    <p id="about-short"> my name is Przemysław (Peter) and I am Front-end Developer </p>
+                    <h2 id="introduction"> my name is Przemysław (Peter) <br> I am Front-end Developer.</h2>
                 </div>
-                <img id="my-photo" src="/content/photos/me.jpg">
-            </div>
-        </div>
-
-        <div class="container">
-            <div class="card">
-                <i class="fas fa-info-circle prime-icon"></i>
-                <div>
-                    Informations about me, what I know and what I'm interested in.
-                </div>
-            </div>
-            <div class="card">
-                <i class="far fa-lightbulb prime-icon"></i>
-                <div>
-                    Projects I'm currently working on.
-                </div>
-            </div>
-            <div class="card">
-                <i class="far fa-address-card prime-icon"></i>
-                <div>
-                    Contact form.
-                </div>
+<!--                TODO add photo-->
+<!--                <img id="my-photo" src="/content/img/me.jpg">-->
             </div>
         </div>
     </main>
+    <section class="container">
+        <div class="card">
+            <i class="fas fa-bullseye prime-icon"></i>
+            <p>
+                Informations about me, what I know and what I'm interested in.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. A at consequatur dignissimos doloribus dolorum, eligendi expedita, iure maiores neque pariatur quod ut. Asperiores culpa dignissimos dolorem, eveniet nesciunt ratione voluptatum.
+            </p>
+        </div>
+        <div class="card">
+            <i class="far fa-lightbulb prime-icon"></i>
+            <p>
+                Projects I'm currently working on.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci eligendi exercitationem id iure modi provident velit voluptatum! Accusamus adipisci animi blanditiis deserunt facilis harum omnis quae quam quas quo!
+            </p>
+            <div class="btn-div">
+                <a class="btn btn-full" href="#">
+                    Check it out!
+                </a>
+            </div>
+        </div>
+        <div class="card">
+            <i class="far fa-address-card prime-icon"></i>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. A at consequatur dignissimos doloribus dolorum, eligendi expedita, iure maiores neque pariatur quod ut. Asperiores culpa dignissimos dolorem, eveniet nesciunt ratione voluptatum.
+            </p>
+        </div>
+    </section>
+    <section class="container" id="about">
+        <div></div>
+
+    </section>
+    <section class="container" id="contact">
+        <form role="form" method="post" id="form">
+<!--            <div>-->
+<!--                <label for="message">-->
+<!--                    Message:</label>-->
+<!--                <textarea class="form-control" type="textarea" name="message" id="message" maxlength="6000" rows="7"></textarea>-->
+<!--            </div>-->
+        </form>
+    </section>
 </body>
 </html>
