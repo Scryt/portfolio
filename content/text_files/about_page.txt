@@ -1,1 +1,13 @@
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci ducimus est nisi non tempora unde voluptate. Corporis doloribus eaque in laudantium neque nulla quisquam sunt ut. Doloribus, nesciunt, repellat. Doloremque?
+Hi,
+</br>
+</br>
+My name is Przemek Toś, a programmer with knowledge of Python, JS, MySQL, MSSQL, TCL, HTML and CSS. A compulsive buyer of Udemy programming courses with constant hunger to learn, know and do more in this area.
+</br>
+</br>
+When I was a little boy, I dreamt of being… Wait, what? Actually, no. I didn’t know I wanted to be a programmer until I turned 18 and started to work. My very first ‘real thing’ was a script that allowed to write macros. Kicked it off, it worked, couldn’t be more proud at that time, especially considering the fact, I didn’t even realize I was programming something. And that’s how it started.
+</br>
+</br>
+Next thing was a job with a lot of manual work, which I hated almost instantly, so it was natural to introduce some automation, at that time with AppScript and SQL. Yeah, I’m the ultimate optimizer due to my deep disregard for sprawling processes. You’ll certainly catch it in my code. Getting back to the tale, after a small life revolution, I ended up in England for over 2 years, spending all the free time on learning how to code during long nights between the job shifts. It was tiring but at the end worth the effort and led me where I am today.
+</br>
+</br>
+I’m an introvert, so my dream job has always been something to avoid close and frequent contact with other human beings. Working for some time in customer service only proved me right. I’ve always loved logic puzzle, strategy games, and cracking into more and more complicated logic dilemmas. Programming is exactly the same thing for me and enable me to do what I love.
