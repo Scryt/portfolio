@@ -25,7 +25,7 @@
         <div class="card">
             <i class="fas fa-bullseye prime-icon"></i>
             <p>
-                Informations about me, what I know and what I'm interested in.
+                Informations about me, what I know and what I'm ested in.
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. A at consequatur dignissimos doloribus dolorum, eligendi expedita, iure maiores neque pariatur quod ut. Asperiores culpa dignissimos dolorem, eveniet nesciunt ratione voluptatum.
             </p>
         </div>
@@ -49,15 +49,32 @@
         </div>
     </section>
     <section class="container">
-        <p id="about"></p>
+        <p id="about">
+<!--            Content provided-->
+        </p>
     </section>
     <section class="container" id="contact">
-        <form role="form" method="post" id="form">
-<!--            <div>-->
-<!--                <label for="message">-->
-<!--                    Message:</label>-->
-<!--                <textarea class="form-control" type="textarea" name="message" id="message" maxlength="6000" rows="7"></textarea>-->
-<!--            </div>-->
+        <form>
+            <div class="row">
+                <label for="name">Name:</label>
+                <input class="form-control" type="text" name="name" placeholder="Jon Doe" required>
+            </div>
+            <div class="row">
+                <label for="email">Email:</label>
+                <input class="form-control" type="text" name="email" placeholder="jon.doe@example.com" required>
+            </div>
+            <div class="row">
+                <label for="message">Message:</label>
+                <textarea class="form-control" name="message" id="message" maxlength="6000" rows="10" required></textarea>
+            </div>
+            <div class="row" id="captcha-box">
+                <p id="missing-captcha"></p>
+<!--                TODO change data-sitekey for the one provided by google -->
+                <div id="captcha"></div>
+            </div>
+            <div class="row" id="button-box">
+                <input type="submit" value="Submit!">
+            </div>
         </form>
     </section>
 </body>
