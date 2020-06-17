@@ -222,6 +222,14 @@ textarea{
     width: 78%;
 }
 
+#rodo-consent {
+    width: 100%;
+}
+
+#rodo-content {
+
+}
+
 #captcha-box, #button-box{
     display: flex;
     justify-content: flex-end;
@@ -274,5 +282,5 @@ textarea{
 }
 
 #about {
-    height: 60vw;
+    height: auto;
 }
