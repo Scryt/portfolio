@@ -4,7 +4,7 @@
   "dependencies": {
     "@sendgrid/mail": "^7.2.0",
     "body-parser": "^1.19.0",
-    "ejs": "^1.0.0",
+    "ejs": "^2.5.5",
     "express": "^4.6.1",
     "express-ejs-layouts": "^1.1.0",
     "jquery-serializejson": "^2.9.0"

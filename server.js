@@ -1,6 +1,5 @@
 let express = require("express"),
-    bodyParser = require('body-parser'),
-    path = require('path');
+    bodyParser = require('body-parser');
 
 require('dotenv').config({path: __dirname + '/.env'})
 
@@ -49,7 +48,10 @@ app.post('/send_email', (req, res) => {
     };
 
     sgMail.send(msg);
+    //TODO remove form after fullfiling it and remove the alert below if done so
+    alert('Message sent, thank you! I will reach back to you as soon as possible')
     res.json({status: "ok"});
+
 });
 
 const PORT = process.env.PORT
