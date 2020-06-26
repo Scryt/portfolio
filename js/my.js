@@ -38,5 +38,8 @@ $(document).ready(function() {
             type: 'POST',
             data: data
         })
+
+        //TODO remove form after fullfiling it and remove the alert below if done so
+        alert('Message sent, thank you! I will reach back to you as soon as possible')
     });
 });
