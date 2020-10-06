@@ -15,11 +15,13 @@ body {
     width: 100%;
     height: auto;
     min-height: 100%;
-    background-color: #0f2531;
-    color: #CAD8DE;
+
     display: flex;
     align-items: center;
     flex-direction: column;
+
+    background-color: #0f2531;
+    color: #CAD8DE;
 }
 
 p {
@@ -27,11 +29,13 @@ p {
 }
 
 h1 {
-    color: #F55C2B;
-    text-align: center;
-    margin: 0;
     font-size: 300%;
     font-weight: 300;
+    margin: 0;
+
+    text-align: center;
+
+    color: #F55C2B;
 }
 
 h2 {
@@ -57,72 +61,12 @@ section {
 }
 
 /******************************************************************************/
-/* TOP NAVIGATION BAR */
-/******************************************************************************/
-
-nav {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    height: auto;
-    position: fixed;
-    top: 0;
-    left: 0;
-    background-color: #CAD8DE;
-    z-index: 1;
-    box-shadow: 1px 1px 3px 1px #CAD8DE;
-    opacity: 0.8;
-}
-
-.menu-bar li a:link,
-.menu-bar li a:visited,
-.social-bar li a:link,
-.social-bar li a:visited {
-    display: inline-block;
-    margin: 15px;
-    color: #0f2531;
-    text-transform: uppercase;
-    font-weight: bold;
-}
-
-.social-bar li a:hover,
-.menu-bar li a:hover {
-    color: #F55C2B;
-}
-
-.social-bar,
-.menu-bar {
-    width: 50%;
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    margin: 0;
-    padding: 0;
-}
-
-.social-bar {
-    justify-content: flex-start;
-}
-
-.menu-bar {
-    justify-content: flex-end;
-}
-
-.nav-bar {
-    width: 70%;
-    display: flex;
-    justify-items: flex-end;
-    justify-content: flex-end;
-}
-
-/******************************************************************************/
 /* REUSABLE */
 /******************************************************************************/
 
 .container {
     display: flex;
     justify-content: center;
-    width: 70%;
     height: auto;
 }
 
@@ -196,65 +140,14 @@ input[type=submit]:hover{
     background-color: #E33B11;
 }
 
-/******************************************************************************/
-/* CONTACT FORM */
-/******************************************************************************/
-
-form {
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-}
-
-label {
-    display: inline-flex;
-    width: 20%;
-}
-
-input,
-textarea{
-    border-radius: 5px;
-}
-
-.form-control {
-    border: 1px;
-    display: inline-flex;
-    width: 78%;
-}
-
-#rodo-consent {
-    width: 100%;
-}
-
-#rodo-content {
-
-}
-
-#captcha-box, #button-box{
-    display: flex;
-    justify-content: flex-end;
-}
-
-#missing-captcha {
-    width: 100%;
-}
-
-#captcha {
-    /*width: 45%;*/
-}
-
-/******************************************************************************/
-
-/******************************************************************************/
-
 #main-display {
     width: 100%;
     background-image:
-        linear-gradient(
-            to bottom,
-            rgba(0, 0, 0, 0.1),
-            #0f2531 ),
-        url("/content/img/background.jpg");
+            linear-gradient(
+                    to bottom,
+                    rgba(0, 0, 0, 0.1),
+                    #0f2531 ),
+            url("../images/background.jpg");
     background-size: cover;
     background-position: right;
     background-repeat: no-repeat;

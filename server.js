@@ -1,35 +1,12 @@
-let express = require("express"),
-    bodyParser = require('body-parser');
+const express = require('express'),
+    bodyParser = require('body-parser')
 
 require('dotenv').config({path: __dirname + '/.env'})
 
-let app = express();
+const app = express();
 
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(bodyParser.json());
-
-// set the view engine to ejs
-app.set('view engine', 'ejs');
-
-app.use('/content', express.static('content'));
-app.use('/styles', express.static('styles'));
-app.use('/js', express.static('js'));
-app.use('/php', express.static('php'));
-
-// index page
-app.get('/', function(req, res) {
-    res.render('pages/index');
-});
-
-// project page
-app.get('/project', function(req, res) {
-    res.render('pages/project');
-});
-
-// blog page
-app.get('/blog', function(req, res) {
-    res.render('pages/blog');
-});
 
 app.post('/send_email', (req, res) => {
     const contactDetails = req.body
